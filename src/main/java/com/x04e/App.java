@@ -18,7 +18,7 @@ public class App extends Application {
 		web.getEngine().load("https://google.com");
 		//web.getEngine().loadContent("<!DOCTYPE html><head><style>*{box-sizing: border-box;} html,body{box-sizing:border-box;height:100%;width:100%;background-color:red;}</style></head><html><body>Hello World!</body></html>", "text/html");
 
-        stage.setScene(new Scene(new StackPane(web), 640, 480));
+        stage.setScene(new Scene(new StackPane(web), 800, 600));
         stage.show();
     }
 
